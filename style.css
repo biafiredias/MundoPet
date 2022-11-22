@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(216, 222, 228);
+    margin: 0;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+#banner {
+    width: 600px;
+    border: 2px solid rgb(24, 24, 238);
+    border-radius: 50px;
+
+}
+h1 {
+    color: #0000FF;
+}
+
+.page-title {
+    font-size: 30px; 
+    text-align: center;
+}
+
+.page-title small {
+    color: #787878;
+    font-weight: normal;
+    font-size: 50%;
+    font-style: italic;
+}
+/**
+ *  Um div é uma caixa dentro da pagina
+ */
+div.content { 
+    background-color: rgb(206, 206, 206);
+    border: 1px solid blue; /* inserir borda*/
+    border-radius: 10px;  /* arredondamento de borda com 10px */
+    padding: 5px 20px; /* espaço interno entre a borda e o conteúdo */    
+}
+
+p { 
+    text-align: justify;
+}
